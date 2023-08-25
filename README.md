@@ -21,6 +21,7 @@ The main steps we made in the project were:
 * Split, standarize and balance the dataset
 * Perform modelling with LR, KNN, SVM and Decision trees
 * Obtain final metrics and graphs
+* Rewrite the whole code in R, perform the same analyses and compare
 
 ## Reasoning behind the data transformations and exclusions
 Throughout the project we have conducted quite a lot of transformations and exclusions at varying stages.
