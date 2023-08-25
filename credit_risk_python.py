@@ -355,7 +355,7 @@ x = data_selected.iloc[:, 1:].values
 
 #6. Using SMOTE to handle imbalance data
 
-smote=SMOTE()
+smote=SMOTE(random_state=10)
 
 x_smote, y_smote = smote.fit_resample(x, y)
 
